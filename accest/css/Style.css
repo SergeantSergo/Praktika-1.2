@@ -1,0 +1,109 @@
+body {
+    font-family: 'Domine', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+
+    color: darkgray;
+    line-height: 1.6;
+
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+/*container*/
+.container{
+    width: 1370px;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+/*intro*/
+.intro{
+    margin: 0 auto;
+    width: 1370px;
+    height: 1056px;
+    text-align: center;
+    background: url("../images/Hero Image.png") center
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__inner{
+    padding-top: 380px;
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+}
+.intro__title{
+    font-family: 'Montserrat', serif;
+    color: #263742;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1;
+}
+.intro__downtitle{
+    padding-top: 20px;
+    font-size: 20px;
+    color: #314a5b;
+    text-align: left;
+}
+
+.btn{
+
+}
+
+/*Header*/
+.header{
+
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header__inner{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo{
+    font-family: 'Domine', serif;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*Nav*/
+
+.nav{
+    font-size:  14px;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    color: #263742;
+    text-decoration: none;
+
+    transition: color .1s linear;
+}
+
+.nav__link:hover {
+    color: darkgray;
+}
