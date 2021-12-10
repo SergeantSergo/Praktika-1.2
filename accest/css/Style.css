@@ -139,8 +139,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .stat__Title{
+    font-family: 'Montserrat', sans-serif;
     max-width: 160px;
     line-height: 25px;
+    color: #38464f;
+    font-size: 26px;
 
 }
 .stat__Title2{
@@ -177,6 +180,17 @@ h1, h2, h3, h4, h5, h6{
     font-size: 14px;
     color: #fa5c65;
     text-decoration: none;
+}
+
+/*content x2*/
+
+.stat__content{
+    display: flex;
+    margin-top: 85px;
+}
+
+.stat__text_content{
+    flex: 1 1 0 ;
 }
 
 /*Section__header*/
